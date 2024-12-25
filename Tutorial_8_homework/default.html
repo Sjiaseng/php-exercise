@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Profile</title>
+</head>
+<body>
+
+    <h2>My Address Book</h2>
+
+    <h3>Add New Profile</h3>
+
+    <form action="insert.php" method="post">
+
+        Name: &nbsp; <input type="text" name="name" required="required"> <br> <br>
+
+        Phone Number: &nbsp; <input type="tel" name="phone_num" required="required"> <br> <br>
+
+        Email Address: &nbsp; <input type="email" name="email_address" required="required"> <br> <br>
+
+        Home Address: <br><textarea name="home_address" required="required"></textarea> <br> <br>
+
+        Gender:&nbsp;
+        <input type="radio" name="gender" value="Male" required="required"> Male 
+        <input type="radio" name="gender" value="Female" required="required"> Female <br> <br>
+
+        Relationship:&nbsp;
+            <select name="relationship" required="required">
+                <option value="">Please select</option>
+                <option value="Family">Family</option>
+                <option value="Friend">Friend</option>
+                <option value="Colleague">Colleague</option>
+                <option value="Other">Other</option>
+            </select> <br> <br>
+
+        Date of Birth: &nbsp; <input type="date" name="dob"> <br> <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <br><a href="new_view.php">View Records</a>
+    
+</body>
+</html>

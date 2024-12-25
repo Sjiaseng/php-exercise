@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Profile</title>
+    <link rel="stylesheet" href="tutorialform.css">
+</head>
+<body>
+    <h2>My Address Book</h2>
+    <h3>Add New Profile</h3>
+
+    <p>
+    Enter your name: <input type="text" name="name" required id="text"> <br> <br>
+    Enter your phone number: <input type="tel" name="phone_num" required id="phone"> <br> <br>
+    Enter your email: <input type="email" name="email_address" required id="text"> <br> <br>
+    Enter your home address: <br><br> <textarea name="home_address" required id="text"></textarea> 
+    </p>
+
+    <p>
+    Select your Gender:
+    <input type="radio" name="gender" value="Male" required id="gender"> Male 
+    <input type="radio" name="gender" value="Female" required id="gender"> Female 
+    </p>
+
+    <p>
+    Select your Relationship: &nbsp;
+    <select name="relationship" required id="select">
+        <option value="">Please select</option>
+        <option value="Family">Family</option>
+        <option value="Friend">Friend</option>
+        <option value="Colleague">Colleague</option>
+        <option value="Other">Other</option>
+    </select> 
+    </p> 
+    
+    <p>
+    Enter your DOB: <input type="date" name="dob" id="date" required value=""> <br> <br>
+    </p>
+
+    <input type="submit" value="Submit"> &nbsp;&nbsp;
+    <input type="reset" value="Reset">
+
+</body>
+</html>

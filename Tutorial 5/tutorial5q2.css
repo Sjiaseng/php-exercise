@@ -1,0 +1,40 @@
+.flex-container {
+    display:flex;
+    width:100%;
+}
+
+.flex-container > div {
+    width:100%;
+    padding: 10px;
+}
+
+.tab {
+    height:20px;
+    cursor:pointer;
+}
+
+.content {
+    height:500px;
+}
+
+#tab1, #content1 {
+    background-color: yellow;
+}
+
+#tab2, #content2 {
+    background-color: pink;
+}
+
+#tab3, #content3 {
+    background-color: orange;
+}
+
+#content2, #content3 {
+    display: none;
+}
+
+#content1 {
+    display: block;
+}
+    
+    
